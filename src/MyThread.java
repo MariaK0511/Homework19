@@ -1,10 +1,10 @@
-public class MyThread extends Thread{
+public class MyThread extends Thread {
 
     private int a;
     private int b;
 
 
-    public MyThread( int a, int b) {
+    public MyThread(int a, int b) {
 
         this.a = a;
         this.b = b;
@@ -13,8 +13,7 @@ public class MyThread extends Thread{
 
     @Override
     public void run() {
-
-       doSmth();
+        doSmth();
 
     }
 
@@ -24,4 +23,4 @@ public class MyThread extends Thread{
         }
 
     }
-    }
+}
